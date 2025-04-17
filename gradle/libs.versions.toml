@@ -15,7 +15,7 @@ composeBom = "2025.03.01"
 lifecycleViewmodelKtx = "2.8.7"
 mapsCompose = "6.1.0"
 material3 = "1.2.1"
-compose = "1.6.8"
+
 transportApi = "4.0.0"
 
 [libraries]

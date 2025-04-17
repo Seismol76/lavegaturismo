@@ -42,12 +42,12 @@ fun AppNavigation() {
             composable("tourist_spots") { TouristSpotsScreen(navController) }
             composable("cultural_events") { CulturalEventsScreen(navController) }
             composable("favorites") { FavoritesScreen(navController) }
-            composable("map/{spotName}/{lat}/{lng}") { backStackEntry ->
-                val spotName = backStackEntry.arguments?.getString("spotName") ?: ""
-                val lat = backStackEntry.arguments?.getString("lat")?.toDoubleOrNull() ?: 0.0
-                val lng = backStackEntry.arguments?.getString("lng")?.toDoubleOrNull() ?: 0.0
-                MapScreen(navController, spotName, lat, lng)
-            }
+//            composable("map/{spotName}/{lat}/{lng}") { backStackEntry ->
+//                val spotName = backStackEntry.arguments?.getString("spotName") ?: ""
+//                val lat = backStackEntry.arguments?.getString("lat")?.toDoubleOrNull() ?: 0.0
+//                val lng = backStackEntry.arguments?.getString("lng")?.toDoubleOrNull() ?: 0.0
+//                MapScreen(navController, spotName, lat, lng)
+ //           }
         }
     }
 }

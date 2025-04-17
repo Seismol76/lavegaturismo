@@ -23,11 +23,11 @@ fun SpotDetailDialog(spot: SpotEntity, onDismiss: () -> Unit, navController: Nav
                     Text("Cerrar")
                 }
                 Spacer(modifier = Modifier.width(8.dp))
-                TextButton(onClick = {
-                    navController.navigate("map/${spot.name}/${spot.latitude}/${spot.longitude}")
-                }) {
-                    Text("Ver en Mapa")
-                }
+//                TextButton(onClick = {
+//                    navController.navigate("map/${spot.name}/${spot.latitude}/${spot.longitude}")
+//                }) {
+//                    Text("Ver en Mapa")
+//                }
             }
         },
         title = { Text(spot.name, fontWeight = FontWeight.Bold) },
